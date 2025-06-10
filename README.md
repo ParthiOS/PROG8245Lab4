@@ -20,6 +20,8 @@ myenv\Scripts\activate
 source myenv/bin/activate
 # install requirements
 pip install -r requirements.txt
+
+## now you can try to open the file and run it may ask you to select the interpreter or jupyter kernel please select myenv(or the name you gave you virtual environment)
 # if you are using GUI IDE, this step is not necessary only do so if you are running on command line terminal only
 jupyter notebook
 
